@@ -1,0 +1,32 @@
+There is only one source code file.  I intend to keep it
+like that.  If it gets big enough to require multiple
+source files someone else will have to take it over.
+
+I presume you kave a 'C' compiler and know how to use it.
+If you don't you are reading the wrong file and I can't
+help you.
+
+1) Decompress the 'tar' ball (zip file) into a directory
+where you can compile it.
+
+2) At the command prompt:
+    $>gcc chaffer.c
+
+    If your using a different C compiler run it instead.
+    $>cc chaffer.c
+
+    You have now built all three of the programs which are
+    part of this package.  They are all in the file named
+    'a.out', which you will find in the directory where you
+    compiled it.
+
+3) The easiest way is to just copy the a.out file to three
+    new names.  Copy it to 'winno', 'chaff', and 'grill' or
+    'winno.exe', 'chaff.exe', and 'grill.exe' if your system
+    preferrs that flavor.  There are other ways to do this,
+    just make sure all three of the files are executeable.
+
+That's it you're done.  If you want you can move them to
+directory in your path or stick them elsewhere on your
+system where other's can run them, but that's it, 
+"Bob's your uncle."
