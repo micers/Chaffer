@@ -1,4 +1,4 @@
-My BTC address: 
+My BTC address: 1PZGjcn3Guvd2jGA5UTCxkzZug6hYgwYdJ
 23 Aug 2017  19:12
 M. Erskine
 
