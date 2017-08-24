@@ -9,7 +9,7 @@ static char *doc[] = {
 "/* ============================================================= */",
 "/*",
 "    Programs: 'winno, chaff, grill'",
-"    Initial Aug. 2017 -m- (C) All Rights Reserved",
+"    Initial Aug. 2017 -m- Released under GNU Copyleft 2.0",
 " ",
 "    This program is based upon steganography, specifically upon",
 "    chaffing and winnowing as described (IIRC) by Rivest back",
