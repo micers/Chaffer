@@ -1,0 +1,84 @@
+Usage for Chaffer
+
+It occured to me that I had not explained how to use the program.
+
+But before I do that you want to know just how secure this method is actually.  I
+mention below that this method is a form of steganography.  Steganography can be
+very, very secure.  It depends upon the user and the means of mixing randomness into
+the information being transmitted.  I worked in the cryptologic community for a number
+of years.  I would not hesitate to use this method to secure information I did not
+want compromised to any state actor in the game.  I think that is as far as I
+want to go into that in this forum.
+
+Explaining how to use the try_me_grill.txt file will also provide a basic understanding
+of how chaffing and winnowing work.  In short chaffing is a form of steganography. The
+information you wish to hide is not encrypted; rather it is simply "hidden" in the
+"noise" of random information.
+
+So lets have a look at the try_me_grill.  The first few lines will be sufficient:
+
+                       Chaff Key: LazyMan, Difficulty: 2
+
+================================================================================
+|ERKEL|| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R |
+================================================================================
+| 000 || r |   | o | p | c |   |   |   | n |   | o |   | u | h | p | i |   |   |
+--------------------------------------------------------------------------------
+| 001 ||   | h | g | t | s | t | l | o | i | e |   | i | M | w | f | e |   |   |
+--------------------------------------------------------------------------------
+| 002 ||   | c |   |   |   | l | m | H |   | t | a | o |   | f | r | t |   | m |
+--------------------------------------------------------------------------------
+| 003 ||   | i |   |   |   |   | 5 |   | n |   |   |   |   | r | e | c |   | r |
+--------------------------------------------------------------------------------
+
+Observe the Key was "LazyMan".  This is the phrase used to seed the random
+number generator which selects the characters used to chaff the message.  Also
+note the Difficulty was set to "2".  This parameter determines how much "chaff"
+is applied to a message.  More chaff is usually better but message length is
+also a consideration.
+
+So let's let our message be "QUICK RED FOX".  We will encode it by writing it
+in our grill thus:
+
+                       Chaff Key: LazyMan, Difficulty: 2
+
+================================================================================
+|ERKEL|| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R |
+================================================================================
+| 000 || r | Q | o | p | c | U | I | C | n | K | o | R | u | h | p | i | E | D |
+--------------------------------------------------------------------------------
+| 001 || F | h | g | t | s | t | l | o | i | e | O | i | M | w | f | e | X | X |
+--------------------------------------------------------------------------------
+| 002 ||   | c |   |   |   | l | m | H |   | t | a | o |   | f | r | t |   | m |
+--------------------------------------------------------------------------------
+| 003 ||   | i |   |   |   |   | 5 |   | n |   |   |   |   | r | e | c |   | r |
+--------------------------------------------------------------------------------
+
+I have written the message in the grill above and have written it all in caps
+so that we can know which letters are message and which are chaff.
+
+You now extract the message and the chaff from the grill and send it to your
+friend thus:
+
+000B <= Tells your friend what line and column you started on.  You might
+start at 017C, or 003P, or any other line on the page.
+
+Now the message follows:
+QoPcU ICnKo Ruhpi EDFhg tstlo ieOiM wfeXX 
+
+Again I have left the message text all capitals and the chaff text all lower
+case.  I added an "X" to the end of the message to round out the last group
+to five letters like all the rest of the groups I sent.
+
+Your friend receives the message and as you send it he writes it down in his
+copy of the grill.  Actually he just reads his copy of the grill and whenever
+you get to a blank in his grill he writes that letter in the grill.
+
+When you are done sending the message all your friend has to do is simply
+READ the message from the grill.  This works best if you copy your message
+using a different color ink than the color the grill is printed in...
+
+And that's it.  That's how it is done.  And it *IS VERY* secure when done properly.
+
+~73~
+w4MHz
