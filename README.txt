@@ -102,7 +102,7 @@ Command line switches:
     . Both winnow and chaff are not 'chaff aware'.  They are
     . simply working with a text tile.  It is possible to
     . chaff again a chaff file and to winnow again a winnoed
-    . file.  The value of that feature is left for the user'secure
+    . file.  The value of that feature is left for the user's
     . consideration.
     .
 -m<"message"> : Use the message provided on the command
