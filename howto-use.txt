@@ -64,7 +64,7 @@ friend thus:
 start at 017C, or 003P, or any other line on the page.
 
 Now the message follows:
-QoPcU ICnKo Ruhpi EDFhg tstlo ieOiM wfeXX 
+QopcU ICnKo Ruhpi EDFhg tstlo ieOiM wfeXX 
 
 Again I have left the message text all capitals and the chaff text all lower
 case.  I added an "X" to the end of the message to round out the last group
