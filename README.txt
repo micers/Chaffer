@@ -48,6 +48,8 @@ to manually secure simple communications. It only uses the
 -k<key> and and the -d<difficulty> switchs.  The output grill
 will be identified by it's key and difficulty setting so
 that it can be reproduced by your friend at the other end.
+Obviously you would not want to transmit that information
+by the same means as the message... secret key system.
 
 Command line switches:
 
