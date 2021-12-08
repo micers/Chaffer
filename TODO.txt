@@ -1,3 +1,8 @@
 
-A numbers only grill is needed for situations where the
-text is mostly or entirely numbers.
+The general case is completed.  It would be good to have
+a numbers only grill. This would be used for situations
+where the text is mostly or entirely numbers.  In the
+interim a work around is to spell out some numbers and
+send the others as digits.
+
+
