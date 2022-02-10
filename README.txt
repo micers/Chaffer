@@ -125,7 +125,16 @@ I just did or alternatively I can challenge him by giving
 him a row and column and expecting him to reply with the
 correct ERKEL.
 
-The additional uses of this matrix are left to the imagination
+Another use of the grill might be to share secret keys.
+Once your friend has a copy of your grill you can always
+tell him a start and end ERKEL and know that he should
+understand that to be the key to be used when generating
+the next grill.  For example if I sent something like
+"KEY 001B 001G" then you would go to the grill and starting
+witn 001B read the next secret key sequence from there to 
+001G.
+
+The additional uses of the grill are left to the imagination
 of the user ;).  There are many.
 
 Keep your difficulties, your keys and your file sizes to
