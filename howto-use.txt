@@ -67,7 +67,10 @@ in our grill thus:
 --------------------------------------------------------------------------------
 
 I have written the message in the grill above and have written it all in caps
-so that we can know which letters are message and which are chaff.
+so that we can know which letters are message and which are chaff.  NOTE: Since
+I wrote this I have modified the chaff generator to generate upper and lower
+case chaff and some punctuation as well as numbers.  That shouldn't impact the
+proper operation of these instructions.
 
 You now extract the message and the chaff from the grill and send it to your
 friend thus:
@@ -93,4 +96,4 @@ using a different color ink than the color the grill is printed in...
 And that's it.  That's how it is done.  And it *IS VERY* secure when done properly.
 
 ~73~
-w4MHz
+
