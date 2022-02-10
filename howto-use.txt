@@ -2,13 +2,25 @@ Usage for Chaffer
 
 It occured to me that I had not explained how to use the program.
 
-But before I do that you want to know just how secure this method is actually.  I
-mention below that this method is a form of steganography.  Steganography can be
-very, very secure.  It depends upon the user and the means of mixing randomness into
-the information being transmitted.  I worked in the cryptologic community for a number
+You'll want to know just how secure is this method. I mention below that this
+method is a form of steganography.  Steganography can be very, very secure.  It
+depends upon the user and the means of mixing randomness into the information
+being transmitted.  I worked in the cryptologic community for a number
 of years.  I would not hesitate to use this method to secure information I did not
-want compromised to any state actor in the game.  I think that is as far as I
-want to go into that in this forum.
+want compromised to any state actor in the game. That should come with a couple
+of caveats though. 
+
+1) Use it with small volumes of text.  
+2) Use a grill and throw it away after it is full.
+3) Don't use the same key for dozens of pages (10 or less)
+4) Change keys frequently.  Don't let them be easily guessed.
+5) Difficulties above 3 or 4 should be acceptable.
+6) NEVER EVER EVER REUSE A GRILL
+
+A further suggestion is study up on the "transposition" cipher.  Apply that to your 
+cipher text if you want more security.  A route transposition would add a lot of
+security in a relatively simple operation.  The combination of chaffing and
+transposition should predclude traditional "anagramming" and similar attacks.
 
 Explaining how to use the try_me_grill.txt file will also provide a basic understanding
 of how chaffing and winnowing work.  In short chaffing is a form of steganography. The
